@@ -1,0 +1,145 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+/* Navigation Bar Styling */
+ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+#logo img{
+    height: 83px;
+    width: 179px;
+    padding: 12px;
+}
+li a{
+    font-weight: bold;
+    color: White;
+    text-decoration: none;
+    padding: 15px 24px;
+}
+li a:hover{
+    border: 2px solid black;
+    background-color: rgb(41, 181, 206);
+    border-radius: 14px;
+}
+
+#center
+{
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar
+{
+    display: flex;
+    
+    align-items: center;
+    position: relative;
+}
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    opacity:0.5;
+    z-index: -1;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hi
+{   top: 30px;
+    right: 39px;
+    background-color: white;
+    padding: 2px 50px;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    border: 2px solid black;
+    text-decoration: none;
+}
+.hi:hover{
+    background-color:red;
+    color: black;
+    font-weight: bolder;
+}
+/* Section Styling */
+#section
+{   display: flex;
+    position: relatiive;
+    margin:10px 12px;
+    padding:13px 14px; 
+    border:2px solid teal ;
+    border-radius: 12px;  
+}
+
+#Gurmeet
+{
+    color:teal;
+}
+.sec
+{
+    text-align: center;
+}
+.Image img
+{
+    height:227px;
+    width: 187px;
+    box-shadow: 12px 12px 12px teal;
+}
+.Youtube img
+{
+    height:23px;
+    width:41px;
+}
+#container
+{
+    box-sizing: border-box;
+}
+/* Form Section Styling */
+#feedbackhub
+{    position: relative;
+    height: 47vh;
+    width: 98.5vw;
+    padding:13px 14px;
+    border: 2px solid black;
+    border-radius: 14px;
+    text-align: center;
+}
+#feedbackhub::before
+{   content: ""; 
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 47vh;
+    width: 98.4vw;
+    border-radius: 14px;
+    background:url('/Web.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+.Register
+{
+  background-color: white;
+  width:600px;
+  height: 40px;
+  margin:auto;
+  border-radius: 14px;
+}
+.Sub
+{
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    width:200px;
+    height:40px;
+}
